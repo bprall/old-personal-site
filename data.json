@@ -1,0 +1,66 @@
+{
+  "about": {
+    "name": "Blake Prall",
+    "title": "Undergraduate - Boston College",
+    "photo": "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/IMG-1233.JPG?v=1697588558936",
+    "majors": ["Neuroscience B.S.", "Computer Science B.A."],
+    "address": "Chestnut Hill, MA 02467",
+    "phone": "(651)-808-2645",
+    "email": "prallb@bc.edu",
+    "github": ["https://www.github.com/bprall", "github.com/bprall"],
+    "url": ["https://blakeprall.glitch.me","blakeprall.glitch.me"],
+    "icons": [
+      "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/542638.png?v=1697597474929",
+      "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/phone-call.svg?v=1697599217973",
+      "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/25231.png?v=1697599252200",
+      "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/6565893.png?v=1697599321046"
+    ]
+  },
+  "selfSummary": "As a senior at Boston College, I am deeply passionate about the fields of neuroscience and computer science. Growing up in Cottage Grove, Minnesota, my academic journey has been marked by a commitment to understanding the intricate workings of the human mind and the boundless possibilities that technology offers in this endeavor. My dual major in neuroscience and computer science reflects my desire to bridge the gap between these two domains, seeking to harness computational approaches to unravel the mysteries of the brain. Through my education and experiences, I have cultivated a strong foundation in research, problem-solving, and the art of innovation, all with the goal of contributing to our understanding of the human condition. My academic pursuits are a testament to my curiosity, determination, and the pursuit of knowledge, and I look forward to the exciting journey that lies ahead in these ever-evolving and dynamic fields.",
+  "news": [
+    {
+      "title": "Start Budgeting App",
+      "date": "Nov 2023"
+    },
+    {
+      "title": "Start Speech to Text Project",
+      "date": "Oct 2023"
+    },
+    {
+      "title": "Start Senior Year",
+      "date": "Aug 2023"
+    },
+    {
+      "title": "Finish Junior Year",
+      "date": "May 2023"
+    },
+    {
+      "title": "Complete Synapse Project",
+      "date": "May 2023"
+    }
+  ],
+  "projects": [
+    {
+      "id": "segproj",
+      "title": "Synaptic Segmentation via Deep Learning",
+      "titleLink": "https://github.com/bprall/CREMI-Neuron-Cleft-Segmentation",
+      "titleLinkLabel": "GitHub Repo",
+      "description": "&emsp;I am interested in the idea of mapping the human connectome through the use of deep-learning neural networks. Despite being the system by which we experience the world and the foundation of consciousness, we still know surprisingly little about the central nervous system due to its vast complexity. Connectomics aims to change that by directly mapping these circuits. There are multiple aspects that go into this challenging task, most regarding the segmentation of individual neurons in order to generate a volumetric representation of neural circuitry.<br>&emsp;In my project, I aim to develop a neural network or system of networks that can synaptic clefts. I hypothesize that a U-Net3D-like architecture that predicts 3D bounding boxes of individual neurons from encoder feature maps, which then generates a neuron instance segmentation map through the decoder layers, alongside an FCN that predicts synapses will best complete this task... </p>",
+      "contents": "",
+      "materials": [
+        {
+          "label": "paper",
+          "path": "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/prallb_final_report.pdf?v=1697601228030"
+        }
+      ]
+    },
+    {
+      "id": "emulate",
+      "title": "Mobile Game Emulator",
+      "titleLink": "",
+      "titleLinkLabel": "",
+      "description": "&emsp;Creating a mobile game emulator using a Raspberry Pi was a project I undertook just for fun. The idea of being able to transform a small, affordable computer like the Raspberry Pi into a mobile platform that could play classic games sounded awesome. It was a challenging yet rewarding journey that allowed me to explore my passion for both gaming and tinkering with technology.<br>&emsp;The first step in this endeavor was selecting the right Raspberry Pi model and gathering the necessary components. After some research, I settled on the Raspberry Pi 4 for its improved processing power and versatility. Then, I acquired a high-quality microSD card to store the emulator software and game ROMs and a power supply.<br>&emsp;But I didn't stop there...",
+      "contents": "&emsp;Creating a mobile game emulator using a Raspberry Pi was a project I undertook just for fun. The idea of being able to transform a small, affordable computer like the Raspberry Pi into a mobile platform that could play classic games sounded awesome. It was a challenging yet rewarding journey that allowed me to explore my passion for both gaming and tinkering with technology.<br>&emsp;The first step in this endeavor was selecting the right Raspberry Pi model and gathering the necessary components. After some research, I settled on the Raspberry Pi 4 for its improved processing power and versatility. Then, I acquired a high-quality microSD card to store the emulator software and game ROMs and a power supply.<br>&emsp;But I didn't stop there; I wanted to take this project to the next level. Inspired by a desire to make the gaming experience more immersive and portable, I decided to 3D print a custom game case. I designed a compact case that perfectly accommodated the Raspberry Pi, microSD card, and power supply. The case was not only functional but also aesthetically pleasing, reminiscent of a handheld gaming device (despite not having on-board controls).<br>&emsp;The real magic happened when I integrated a small LED screen into the design. The LED screen was strategically placed on the top cover of the case, allowing for a visual display of the games. To power the whole setup, I added a set of rechargeable batteries inside the case. The result was a self-contained, portable gaming device, complete with a screen and battery pack.<br>&emsp;Seeing the LED screen light up with the games and feeling the weight of the 3D-printed game case in my hands was a truly gratifying moment. I had transformed a simple Raspberry Pi into a handheld gaming emulator that could be taken anywhere, untethered from power sources. Navigating through game menus, selecting titles, and experiencing the nostalgia of classic games on a self-created device was a unique and immensely satisfying experience.<br>&emsp;In the end, this fun project was a testament to the versatility and creativity that the Raspberry Pi encourages. It allowed me to indulge in my passion for gaming, explore the world of emulation, and discover the potential of a tiny, affordable computer like the Raspberry Pi. It was not just about recreating games; it was about reliving childhood memories and learning new skills along the way. This project stands as a reminder that, in the world of technology and tinkering, even the most whimsical ideas can lead to rewarding and enjoyable experiences, while simultaneously showcasing the power of 3D printing and creative problem-solving."
+    }
+  ]
+}
