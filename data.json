@@ -61,6 +61,20 @@
       "titleLinkLabel": "",
       "description": "&emsp;Creating a mobile game emulator using a Raspberry Pi was a project I undertook just for fun. The idea of being able to transform a small, affordable computer like the Raspberry Pi into a mobile platform that could play classic games sounded awesome. It was a challenging yet rewarding journey that allowed me to explore my passion for both gaming and tinkering with technology.<br>&emsp;The first step in this endeavor was selecting the right Raspberry Pi model and gathering the necessary components. After some research, I settled on the Raspberry Pi 4 for its improved processing power and versatility. Then, I acquired a high-quality microSD card to store the emulator software and game ROMs and a power supply.<br>&emsp;But I didn't stop there...",
       "contents": "&emsp;Creating a mobile game emulator using a Raspberry Pi was a project I undertook just for fun. The idea of being able to transform a small, affordable computer like the Raspberry Pi into a mobile platform that could play classic games sounded awesome. It was a challenging yet rewarding journey that allowed me to explore my passion for both gaming and tinkering with technology.<br>&emsp;The first step in this endeavor was selecting the right Raspberry Pi model and gathering the necessary components. After some research, I settled on the Raspberry Pi 4 for its improved processing power and versatility. Then, I acquired a high-quality microSD card to store the emulator software and game ROMs and a power supply.<br>&emsp;But I didn't stop there; I wanted to take this project to the next level. Inspired by a desire to make the gaming experience more immersive and portable, I decided to 3D print a custom game case. I designed a compact case that perfectly accommodated the Raspberry Pi, microSD card, and power supply. The case was not only functional but also aesthetically pleasing, reminiscent of a handheld gaming device (despite not having on-board controls).<br>&emsp;The real magic happened when I integrated a small LED screen into the design. The LED screen was strategically placed on the top cover of the case, allowing for a visual display of the games. To power the whole setup, I added a set of rechargeable batteries inside the case. The result was a self-contained, portable gaming device, complete with a screen and battery pack.<br>&emsp;Seeing the LED screen light up with the games and feeling the weight of the 3D-printed game case in my hands was a truly gratifying moment. I had transformed a simple Raspberry Pi into a handheld gaming emulator that could be taken anywhere, untethered from power sources. Navigating through game menus, selecting titles, and experiencing the nostalgia of classic games on a self-created device was a unique and immensely satisfying experience.<br>&emsp;In the end, this fun project was a testament to the versatility and creativity that the Raspberry Pi encourages. It allowed me to indulge in my passion for gaming, explore the world of emulation, and discover the potential of a tiny, affordable computer like the Raspberry Pi. It was not just about recreating games; it was about reliving childhood memories and learning new skills along the way. This project stands as a reminder that, in the world of technology and tinkering, even the most whimsical ideas can lead to rewarding and enjoyable experiences, while simultaneously showcasing the power of 3D printing and creative problem-solving."
+    },
+    {
+      "id": "resume",
+      "title": "Blake Prall",
+      "titleLink": "",
+      "titleLinkLabel": "",
+      "description": "Blake Prall's resume",
+      "contents": "",
+      "materials": [
+        {
+          "label": "resume_pdf",
+          "path": "https://cdn.glitch.global/b68bb16d-cd01-42eb-aec5-4672824ce2a7/blakeprall.pdf?v=1699414885333"
+        }
+      ]
     }
   ]
 }
