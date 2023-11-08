@@ -15,6 +15,16 @@ nav {
     align-items: center;
 }
 
+a {
+    text-decoration: none;
+    color: black;
+    transition: color 0.3s;
+}
+
+a:hover {
+    color: gray;
+}
+
 .menu-toggle {
     display: none;
     cursor: pointer;
@@ -41,6 +51,38 @@ nav {
 
 .news_date {
   width: 33.33333333%;
+}
+
+.project h3 {
+  margin-left: 20px;
+  margin-right: 35px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  display: flex;
+  justify-content: space-between
+}
+
+#projects {
+  margin-left: 15px;
+  margin-bottom: 20px;
+}
+
+#projects h3{
+  margin-left: 20px;
+  margin-right: 35px;
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+}
+
+#projects p {
+  margin-left: 25px;
+  margin-right: 35px;
+}
+
+#projects a{
+  margin-left: 40px;
 }
 
 #about {
@@ -97,39 +139,6 @@ nav {
   margin-left: 15px;
 }
 
-#projects {
-  margin-left: 15px;
-  margin-bottom: 20px;
-}
-
-#projects h3{
-  margin-left: 20px;
-  margin-right: 35px;
-  padding: 10px;
-  background-color: #f9f9f9;
-  border-radius: 10px;
-}
-
-#projects p {
-  margin-left: 25px;
-  margin-right: 35px;
-}
-
-a {
-    text-decoration: none;
-    color: black;
-    transition: color 0.3s;
-}
-
-a:hover {
-    color: gray;
-}
-
-#projects a{
-  margin-left: 40px;
-}
-
-
 @media (max-width: 768px) {    
   .menu-toggle {
     display: block;
@@ -175,7 +184,7 @@ a:hover {
 }
 
 @media (min-width: 769px) {
-  #index main {
+  body main {
     display: grid;
     grid-template-columns: 330px 1fr;
     grid-template-rows: repeat(5, auto);
@@ -202,5 +211,10 @@ a:hover {
     grid-column: 2;
     grid-row-start: 2;
     grid-row-end: 6;
+  }
+  
+  .project {
+    grid-column: 1 / -1;
+    grid-row: 1 / -1;
   }
 }
