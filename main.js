@@ -15,6 +15,7 @@ fetch('data.json')
               <li><a href="#about" id="about-link">About</a></li>
               <li><a href="#news" id="news-link">News</a></li>
               <li><a href="#projects" id="projects-link">Projects</a></li>
+              <li><a href="#resume" id="resume-link">Resume</a></li>
             </ul>
           </div>
         </nav>`;
@@ -22,7 +23,13 @@ fetch('data.json')
       const aboutLink = document.getElementById("about-link");
       const newsLink = document.getElementById("news-link");
       const projectsLink = document.getElementById("projects-link");
-
+      const resumeLink = document.getElementById("resume-link");
+      
+      resumeLink.addEventListener("click", function(event) {
+        event.preventDefault();
+        const resume = data.projects.find((p) => p.id === "resume");
+        renderProjectPage(resume);
+      });
       aboutLink.addEventListener("click", scrollToSection);
       newsLink.addEventListener("click", scrollToSection);
       projectsLink.addEventListener("click", scrollToSection);
@@ -127,14 +134,20 @@ fetch('data.json')
                 <h3>${project.title}</h3>
                 <p>${project.contents}</p>
             </section>`;
+    } else if (project.id === "resume"){
+      main.innerHTML = `
+        <section class="project">
+          <iframe src="${project.materials[0].path}" 
+                  type="application/pdf" style="width: 100%; height: 100vh;" scrolling="yes"></iframe>
+        </section>`;
     } else {
-        main.innerHTML = "<p>Project not found.</p>";
+        main.innerHTML = "<p>Page not found.</p>";
     }
   }
   
   const urlParams = new URLSearchParams(window.location.search);
   const projectId = urlParams.get("project");
-  const page = projectId == null ? "main" : "project-detetail";
+  const page = projectId == null ? "main" : "project-detail";
   
   renderNavbar();
   
