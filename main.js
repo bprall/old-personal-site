@@ -5,20 +5,39 @@ fetch('data.json')
 .then(data => {
   console.log(data);
 
-  function renderNavbar() {
-    const header = document.querySelector("header");
+    function renderNavbar() {
+      const header = document.querySelector("header");
       header.innerHTML = `
         <nav>
           <div class="menu-toggle" tabindex="0">☰</div>
           <div class="nav-container">
             <ul class="nav-links">
-              <li><a href="#about">About</a></li>
-              <li><a href="#news">News</a></li>
-              <li><a href="#projects">Projects</a></li>
+              <li><a href="#about" id="about-link">About</a></li>
+              <li><a href="#news" id="news-link">News</a></li>
+              <li><a href="#projects" id="projects-link">Projects</a></li>
             </ul>
           </div>
         </nav>`;
-  }
+
+      const aboutLink = document.getElementById("about-link");
+      const newsLink = document.getElementById("news-link");
+      const projectsLink = document.getElementById("projects-link");
+
+      aboutLink.addEventListener("click", scrollToSection);
+      newsLink.addEventListener("click", scrollToSection);
+      projectsLink.addEventListener("click", scrollToSection);
+    }
+
+    function scrollToSection(event) {
+      if (page != "main") {
+        renderMainPage(data)
+      }
+      event.preventDefault();
+      const targetId = event.currentTarget.getAttribute("href").substring(1);
+      const targetSection = document.getElementById(targetId);
+      targetSection.scrollIntoView({ behavior: "smooth" });
+    }
+
 
 
   function renderMainPage(data) {
@@ -97,14 +116,14 @@ fetch('data.json')
     
     if (project.id === "segproj") {
         main.innerHTML = `
-            <section id="project-detail">
-                <h3>${project.title}<a href="${project.titleLinkLabel}"><u>${project.titleLinkLabel}</u></a></h3>
+            <section class="project">
+                <h3>${project.title}<a href="${project.titleLink}"><u>${project.titleLinkLabel}</u></a></h3>
                 <iframe src="${project.materials[0].path}" 
                   type="application/pdf" style="width: 100%; height: 100vh;" scrolling="yes"></iframe>
             </section>`;
     } else if (project.id === "emulate") {
         main.innerHTML = `
-            <section id="project-detail">
+            <section class="project">
                 <h3>${project.title}</h3>
                 <p>${project.contents}</p>
             </section>`;
