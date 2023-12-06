@@ -3,13 +3,13 @@
   "about": {
     "name": "Blake Prall",
     "title": "Undergraduate - Boston College",
-    "photo": "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/IMG-1233.JPG?v=1697588558936",
+    "photo": "https://media.licdn.com/dms/image/D4E03AQFbGrNlhV3vOQ/profile-displayphoto-shrink_800_800/0/1701894420208?e=1707350400&v=beta&t=P7pE06OS9eEH4LtSuU1vrTDJ-4j80ntdspNt8xW7nY0",
     "majors": ["Neuroscience B.S.", "Computer Science B.A."],
     "address": "Chestnut Hill, MA 02467",
     "phone": "(651)-808-2645",
     "email": "prallb@bc.edu",
     "github": ["https://www.github.com/bprall", "github.com/bprall"],
-    "url": ["https://bprall.glitch.me","bprall.glitch.me"],
+    "url": ["https://blakeprall.glitch.me","blakeprall.glitch.me"],
     "icons": [
       "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/542638.png?v=1697597474929",
       "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/phone-call.svg?v=1697599217973",
@@ -20,11 +20,27 @@
   "selfSummary": "As a senior at Boston College, I am deeply passionate about the fields of neuroscience and computer science. Growing up in Cottage Grove, Minnesota, my academic journey has been marked by a commitment to understanding the intricate workings of the human mind and the boundless possibilities that technology offers in this endeavor. My dual major in neuroscience and computer science reflects my desire to bridge the gap between these two domains, seeking to harness computational approaches to unravel the mysteries of the brain. Through my education and experiences, I have cultivated a strong foundation in research, problem-solving, and the art of innovation, all with the goal of contributing to our understanding of the human condition. My academic pursuits are a testament to my curiosity, determination, and the pursuit of knowledge, and I look forward to the exciting journey that lies ahead in these ever-evolving and dynamic fields.",
   "news": [
     {
+      "title": "Finish R Project",
+      "date": "Dec 2023"
+    },
+    {
+      "title": "Finish ASR Project",
+      "date": "Dec 2023"
+    },
+    {
+      "title": "Start R Project",
+      "date": "Dec 2023"
+    },
+    {
+      "title": "Finish Budgeting App",
+      "date": "Dec 2023"
+    },
+    {
       "title": "Start Budgeting App",
       "date": "Nov 2023"
     },
     {
-      "title": "Start Speech to Text Project",
+      "title": "Start Automatic Speech Recognition (ASR) Project",
       "date": "Oct 2023"
     },
     {
