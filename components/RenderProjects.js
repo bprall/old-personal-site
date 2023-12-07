@@ -4,8 +4,7 @@ export function renderProjectItems(project) {
         <h3>${project.title}</h3>
         <p>${project.description}</p>
         <a href="?project=${project.id}"><u>Read More</u></a>
-    </div>
-  `
+    </div>`;
 }
 
 export default function renderProjects(projects) {

@@ -15,7 +15,10 @@ export default function renderMainPage(data) {
   const newsSearch = document.querySelector('.search input[name="news"]');
   newsSearch.addEventListener("input", e => {
     const value = e.target.value.toLowerCase();
-    const filtered = data.news.filter(newsitem => newsitem.title.toLowerCase().includes(value));
+    const filtered = data.news.filter(newsitem =>
+      newsitem.title.toLowerCase().includes(value) ||
+      newsitem.date.toLowerCase().includes(value)
+    );
     const list = document.querySelector(".news-list");
     list.innerHTML = filtered.map(newsitem => renderNewsItems(newsitem)).join("");
   });
@@ -23,7 +26,10 @@ export default function renderMainPage(data) {
   const projectSearch = document.querySelector('.search input[name="projects"]');
   projectSearch.addEventListener("input", e => {
     const value = e.target.value.toLowerCase();
-    const filtered = data.projects.filter(project => project.title.toLowerCase().includes(value));
+    const filtered = data.projects.filter(project =>
+      project.title.toLowerCase().includes(value) ||
+      project.description.toLowerCase().includes(value)
+    );
     const list = document.querySelector(".project-list");
     list.innerHTML = filtered.map(project => renderProjectItems(project)).join("");
   });
