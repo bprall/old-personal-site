@@ -25,6 +25,7 @@ export default function renderNavbar(page, data) {
       newsLink.addEventListener("click", (event) => scrollToSection(event, page, data));
       projectsLink.addEventListener("click", (event) => scrollToSection(event, page, data));
       resumeLink.addEventListener("click", () => {
+        event.preventDefault();
         const resume = data.resume;
         renderResume(resume);
       });
@@ -33,6 +34,8 @@ export default function renderNavbar(page, data) {
  export function scrollToSection(event, page, data) {
       if (page != "main") {
         renderMainPage(data)
+        const newUrl = window.location.origin;
+        history.pushState({}, "", newUrl);
       }
       event.preventDefault();
       const targetId = event.currentTarget.getAttribute("href").substring(1);

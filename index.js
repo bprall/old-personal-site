@@ -15,7 +15,7 @@ fetch('data.json')
         const page = projectId == null ? "main" : "project-detail";
 
         renderNavbar(page, data);
-  
+
         if (page === "main") {
             renderMainPage(data);
         } else {

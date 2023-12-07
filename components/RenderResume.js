@@ -7,5 +7,4 @@ export default function renderResume(resume) {
       <iframe src="${resume}" 
               type="application/pdf" style="width: 100%; height: 100vh;" scrolling="yes"></iframe>
     </section>`;
-  renderNavbar();
 }
