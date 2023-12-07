@@ -60,6 +60,7 @@
     {
       "id": "segproj",
       "title": "Synaptic Segmentation via Deep Learning",
+      "type": "pdf",
       "titleLink": "https://github.com/bprall/CREMI-Neuron-Cleft-Segmentation",
       "titleLinkLabel": "GitHub Repo",
       "description": "&emsp;I am interested in the idea of mapping the human connectome through the use of deep-learning neural networks. Despite being the system by which we experience the world and the foundation of consciousness, we still know surprisingly little about the central nervous system due to its vast complexity. Connectomics aims to change that by directly mapping these circuits. There are multiple aspects that go into this challenging task, most regarding the segmentation of individual neurons in order to generate a volumetric representation of neural circuitry.<br>&emsp;In my project, I aim to develop a neural network or system of networks that can synaptic clefts. I hypothesize that a U-Net3D-like architecture that predicts 3D bounding boxes of individual neurons from encoder feature maps, which then generates a neuron instance segmentation map through the decoder layers, alongside an FCN that predicts synapses will best complete this task... </p>",
@@ -74,6 +75,7 @@
     {
       "id": "emulate",
       "title": "Mobile Game Emulator",
+      "type": "text",
       "titleLink": "",
       "titleLinkLabel": "",
       "description": "&emsp;Creating a mobile game emulator using a Raspberry Pi was a project I undertook just for fun. The idea of being able to transform a small, affordable computer like the Raspberry Pi into a mobile platform that could play classic games sounded awesome. It was a challenging yet rewarding journey that allowed me to explore my passion for both gaming and tinkering with technology.<br>&emsp;The first step in this endeavor was selecting the right Raspberry Pi model and gathering the necessary components. After some research, I settled on the Raspberry Pi 4 for its improved processing power and versatility. Then, I acquired a high-quality microSD card to store the emulator software and game ROMs and a power supply.<br>&emsp;But I didn't stop there...",
