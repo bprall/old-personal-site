@@ -4,7 +4,7 @@ body {
 }
 
 header {
-    background: #f9f9f9;
+    background: #f1f1f1;
     padding: 10px;
     display: flex;
     justify-content: space-between;
@@ -39,17 +39,17 @@ a:hover {
     margin-right: 20px;
 }
 
-.news_row {
+.news-row {
   display: flex;
   margin-right: 15px;
   margin-bottom: 5px;
 }
 
-.news_title {
+.news-title {
   width: 66.66666667%;
 }
 
-.news_date {
+.news-date {
   width: 33.33333333%;
 }
 
@@ -65,35 +65,36 @@ border: 1px solid #eeeeee;
 }
 
 .project h3 {
-  margin-left: 20px;
+  margin-left: 45px;
   margin-right: 35px;
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #f1f1f1;
   border-radius: 10px;
   display: flex;
   justify-content: space-between
 }
 
 .project p {
-  margin-left: 25px;
+  margin-left: 45px;
   margin-right: 35px;
 }
 
-#projects {
+#projects h2 {
   margin-left: 15px;
+  margin-right: 15px;
   margin-bottom: 20px;
 }
 
 #projects h3{
-  margin-left: 20px;
+  margin-left: 35px;
   margin-right: 35px;
   padding: 10px;
-  background-color: #f9f9f9;
+  background-color: #f1f1f1;
   border-radius: 10px;
 }
 
 #projects a{
-  margin-left: 40px;
+  margin-left: 65px;
 }
 
 #about {
@@ -142,7 +143,7 @@ border: 1px solid #eeeeee;
   padding-left: 20px;
   padding-top: 1px;
   padding-bottom: 1px;
-  background-color: #f9f9f9;
+  background-color: #f1f1f1;
   border-radius: 10px;
 }
 
@@ -163,7 +164,7 @@ border: 1px solid #eeeeee;
     top: 30px;
     left: 0;
     right: 0;
-    background: #f9f9f9;
+    background: #f1f1f1;
     padding: 0;
     transition: display 0.3s;
   }

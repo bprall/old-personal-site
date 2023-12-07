@@ -1,8 +1,8 @@
 export function renderNewsItems(item) {
   return `
-      <div class="news_row">
-          <div class="news_title">${item.title}</div>
-          <div class="news_date">${item.date}</div>
+      <div class="news-row">
+          <div class="news-title">${item.title}</div>
+          <div class="news-date">${item.date}</div>
       </div>`;
 }
 
