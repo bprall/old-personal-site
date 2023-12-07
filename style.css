@@ -168,11 +168,9 @@ border: 1px solid #eeeeee;
     right: 0;
     background: #f1f1f1;
     padding: 0;
-    transition: display 0.3s;
   }
 
-  .menu-toggle:focus + .nav-container,
-  .nav-container:hover {
+  .nav-container:hover, .menu-toggle:focus + .nav-container {
     display: flex; 
   }
 
@@ -193,7 +191,7 @@ border: 1px solid #eeeeee;
   }
 
   .nav-links li a:hover {
-    background-color: #cccccc;
+    color: gray;
   }
 }
 
