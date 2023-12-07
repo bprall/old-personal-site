@@ -1,5 +1,5 @@
 {
-  "resume": "https://cdn.glitch.global/3874a658-483f-41ac-b439-3b48eab1370f/blakeprall.pdf?v=1701921201640",
+  "resume": "https://cdn.glitch.global/3874a658-483f-41ac-b439-3b48eab1370f/blakeprall.pdf?v=1701927340066",
   "about": {
     "name": "Blake Prall",
     "title": "Undergraduate - Boston College",
@@ -10,10 +10,12 @@
     "email": "prallb@bc.edu",
     "github": ["https://www.github.com/bprall", "github.com/bprall"],
     "url": ["https://blakeprall.glitch.me","blakeprall.glitch.me"],
+    "linkedin": ["https://www.linkedin.com/in/bprall/", "linkedin.com/in/bprall"],
     "icons": [
       "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/542638.png?v=1697597474929",
       "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/phone-call.svg?v=1697599217973",
       "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/25231.png?v=1697599252200",
+      "https://cdn-icons-png.flaticon.com/512/61/61109.png",
       "https://cdn.glitch.global/c6cec155-a368-4ff7-be9e-ab2174e617eb/6565893.png?v=1697599321046"
     ]
   },
