@@ -60,6 +60,21 @@
   ],
   "projects": [
     {
+     "id": "asrproj",
+      "title": "Automatic Speech Recognition",
+      "type": "pdf",
+      "titleLink": "https://github.com/bprall/CNN-LSTM-CTC-Automatic-Speech-Recognition",
+      "titleLinkLabel": "GitHub Repo",
+      "description": "&emsp;In this project, we present a Speech-to-Text model employing a combination of Convolutional Neural Networks (CNNs) and Long Short-Term Memory networks (LSTMs). Trained on the <q>train-clean-100</q> subset of the LIBRISPEECH dataset, our model transforms audio waveforms into spectrograms using MelSpectrogram transformation. To enhance robustness, we apply data augmentation techniques such as frequency masking and time masking. The model's architecture captures both local frequency patterns and temporal dynamics, crucial for accurate speech recognition. We employ the AdamW optimizer and utilize the Connectionist Temporal Classification (CTC) loss function to train our model, addressing challenges associated with variable-length sequences. Evaluation metrics include Character Error Rate (CER) and Word Error Rate (WER). Despite challenges, our model showcases promising performance in automatic speech recognition...</p>",
+      "contents": "",
+      "materials": [
+        {
+          "label": "paper",
+          "path": "https://cdn.glitch.global/3874a658-483f-41ac-b439-3b48eab1370f/Speech_to_Text.pdf?v=1702087574286"
+        }
+      ]
+    },
+    {
       "id": "segproj",
       "title": "Synaptic Segmentation via Deep Learning",
       "type": "pdf",
