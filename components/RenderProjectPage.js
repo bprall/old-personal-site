@@ -11,7 +11,7 @@ export default function renderProjectPage(project) {
     } else if (project.type === "text") {
         main.innerHTML = `
             <section class="project" id="emulate">
-                <h3>${project.title}</h3>
+                <h3>${project.title}<a href="${project.titleLink}"><u>${project.titleLinkLabel}</u></a></h3>
                 <p>${project.contents}</p>
             </section>`;
     } else {
