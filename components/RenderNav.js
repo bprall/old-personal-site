@@ -1,5 +1,4 @@
 import renderMainPage from "./RenderMainPage.js";
-import renderResume from "./RenderResume.js"
 
 export default function renderNavbar(page, data) {
       const header = document.querySelector("header");
@@ -11,7 +10,7 @@ export default function renderNavbar(page, data) {
               <li><a href="#about" id="about-link">About</a></li>
               <li><a href="#news" id="news-link">News</a></li>
               <li><a href="#projects" id="projects-link">Projects</a></li>
-              <li><a href="resume" id="resume-link">Resume</a></li>
+              <li><a href="${data.resume}" id="resume-link" target="_blank" onclick="openResume(event)">Resume</a></li>
             </ul>
           </div>
         </nav>`;
@@ -19,16 +18,11 @@ export default function renderNavbar(page, data) {
       const aboutLink = document.getElementById("about-link");
       const newsLink = document.getElementById("news-link");
       const projectsLink = document.getElementById("projects-link");
-      const resumeLink = document.getElementById("resume-link");
 
       aboutLink.addEventListener("click", (event) => scrollToSection(event, page, data));
       newsLink.addEventListener("click", (event) => scrollToSection(event, page, data));
       projectsLink.addEventListener("click", (event) => scrollToSection(event, page, data));
-      resumeLink.addEventListener("click", () => {
-        event.preventDefault();
-        const resume = data.resume;
-        renderResume(resume);
-      });
+      
     }
 
  export function scrollToSection(event, page, data) {
