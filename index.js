@@ -1,7 +1,6 @@
 import renderNavbar from "./components/RenderNav.js";
 import renderMainPage from "./components/RenderMainPage.js";
 import renderProjectPage from "./components/RenderProjectPage.js";
-import renderResume from "./components/RenderResume.js"
 
 fetch('data.json')
     .then(response => {
