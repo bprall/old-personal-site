@@ -55,14 +55,14 @@ a:hover {
 }
 
 .search input {
-width:80%;
-margin-left: 15px;
-margin-top:.5rem;
-margin-bottom:.5rem;
-font-size: 0.9rem;
-padding: 0.5rem;
-border-radius: 1rem;
-border: 1px solid #eeeeee;
+  width:80%;
+  margin-left: 15px;
+  margin-top:.5rem;
+  margin-bottom:.5rem;
+  font-size: 0.9rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  border: 1px solid #eeeeee;
 }
 
 .project h3 {
@@ -95,8 +95,9 @@ border: 1px solid #eeeeee;
 .about h3 {
   text-align: center;
   line-height: 0.9;
+  margin-left: 15px;
   margin-top: 5px;
-  margin-bottom: 15px;
+  margin-bottom: 10px;
 }
 
 .about p{
@@ -108,16 +109,20 @@ border: 1px solid #eeeeee;
 }
 
 .about img {
-    margin-top: 20px;
-    width: 200px;
-    height: 200px; 
-    border-radius: 20%; 
+  margin-top: 20px;
+  width: 200px;
+  height: 200px; 
+  border-radius: 20%; 
 }
 
 .about p img {
   margin: 0;
   width: 15px;
   height: 15px;
+}
+
+#education p {
+  margin-left: 40px;
 }
 
 #projects h2 {
@@ -197,7 +202,7 @@ border: 1px solid #eeeeee;
 @media (min-width: 769px) {
   body main {
     display: grid;
-    grid-template-columns: 330px 1fr;
+    grid-template-columns: 350px 1fr;
     grid-template-rows: repeat(5, auto);
     grid-gap: 20px;
     align-items: start
