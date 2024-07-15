@@ -1,13 +1,13 @@
 {
   "resume": "https://cdn.glitch.global/3874a658-483f-41ac-b439-3b48eab1370f/blakeprall.pdf?v=1721003245860",
   "about": {
-    "name": "Blake Prall",
-    "title": "Undergraduate - Boston College",
     "photo": "https://cdn.glitch.global/b0561b3a-67fa-44de-99d8-728d82b14013/1701894420208%20(2).jpg?v=1715368201737",
+    "name": "Blake Prall",
+    "education": "Boston College",
     "majors": ["Neuroscience B.S.", "Computer Science B.A."],
-    "address": "Blaine, MN 55016",
+    "address": "Chestnut Hill, MA 02467",
     "phone": "(651)-808-2645",
-    "email": "brprall3@gmail.com",
+    "email": "prallb@bc.edu",
     "github": ["https://www.github.com/bprall", "github.com/bprall"],
     "url": ["https://bprall.github.io","bprall.github.io"],
     "linkedin": ["https://www.linkedin.com/in/bprall/", "linkedin.com/in/bprall"],
@@ -26,7 +26,7 @@
       "date": "May 2024"
     },
     {
-      "title": "Start Working for Outlier AI Training Math and Coding",
+      "title": "Start Working for Outlier AI training Math and Coding",
       "date": "Feb 2024"
     },
     {
@@ -101,7 +101,7 @@
       "type": "pdf",
       "titleLink": "https://github.com/bprall/CREMI-Neuron-Cleft-Segmentation",
       "titleLinkLabel": "GitHub Repo",
-      "description": "&emsp;I am interested in the idea of mapping the human connectome through the use of deep-learning neural networks. Despite being the system by which we experience the world and the foundation of consciousness, we still know surprisingly little about the central nervous system due to its vast complexity. Connectomics aims to change that by directly mapping these circuits. There are multiple aspects that go into this challenging task, most regarding the segmentation of individual neurons in order to generate a volumetric representation of neural circuitry.<br>&emsp;In my project, I aim to develop a neural network or system of networks that can detect synaptic clefts. I hypothesize that a U-Net3D-like architecture that predicts 3D bounding boxes of individual neurons from encoder feature maps, which then generates a neuron instance segmentation map through the decoder layers, alongside an FCN that predicts synapses will best complete this task... </p>",
+      "description": "&emsp;I am interested in the idea of mapping the human connectome through the use of deep-learning neural networks. Despite being the system by which we experience the world and the foundation of consciousness, we still know surprisingly little about the central nervous system due to its vast complexity. Connectomics aims to change that by directly mapping these circuits. There are multiple aspects that go into this challenging task, most regarding the segmentation of individual neurons in order to generate a volumetric representation of neural circuitry.<br>&emsp;In my project, I aim to develop a neural network or system of networks that can synaptic clefts. I hypothesize that a U-Net3D-like architecture that predicts 3D bounding boxes of individual neurons from encoder feature maps, which then generates a neuron instance segmentation map through the decoder layers, alongside an FCN that predicts synapses will best complete this task... </p>",
       "contents": "",
       "materials": [
         {
