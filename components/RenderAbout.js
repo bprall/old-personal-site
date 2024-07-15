@@ -1,9 +1,9 @@
 export default function renderAbout(about) {
     return `
-    <section id="about">
+    <section class="about">
         <center><img src="${about.photo}" alt="Your Photo"></center>
         <h1>${about.name}</h1>
-        <h3>${about.title}</h3>
+        <h3 id = education>${about.education}</h3>
         <p>${about.majors[0]}<br>
             ${about.majors[1]}<br>
             ${about.address}<br>
