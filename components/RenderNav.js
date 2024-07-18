@@ -10,7 +10,7 @@ export default function renderNavbar(page, data) {
               <li><a href="#about" id="about-link">About</a></li>
               <li><a href="#news" id="news-link">News</a></li>
               <li><a href="#projects" id="projects-link">Projects</a></li>
-              <li><a href="${data.resume}" id="resume-link" target="_blank" onclick="openResume(event)">Resume</a></li>
+              <li><a href="${data.cv}" id="cv-link" target="_blank" onclick="openResume(event)">CV</a></li>
             </ul>
           </div>
         </nav>`;
