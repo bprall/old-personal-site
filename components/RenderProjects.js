@@ -2,8 +2,8 @@ export function renderProjectItems(project) {
   return `
     <div class="project">
         <h3>${project.title}</h3>
-        <p>${project.description}</p>
-        <a href="?project=${project.id}"><u>Read More</u></a>
+        <p class="project-desc">${project.description}</p>
+        <a href="?project=${project.id}"><u id="read-more">Read More</u></a>
     </div>`;
 }
 
